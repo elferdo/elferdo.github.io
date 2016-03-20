@@ -1,24 +1,23 @@
-Hola caracola
+---
+layout: default
+---
 
-<div id="disqus_thread"></div>
-<script>
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-  */
+<div class="home">
 
-  var disqus_config = function () {
-  this.page.url = http://elferdo.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = 1; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
+  <h1 class="page-heading">Posts</h1>
 
-  (function() {  // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  s.src = '//elferdo.disqus.com/embed.js';
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
