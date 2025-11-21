@@ -17,16 +17,21 @@
   height: 100%;
   flex-shrink: 0;
   scroll-snap-align: start;
-  font-size: 100pt;
-  text-align: center;
   align-content: center;
-  text-color: white;
 }
 
 
 .main-section {
   font-family: serif;
+  font-size: 100pt;
+  text-align: center;
+  text-color: white;
   color: white;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 85pt;
+    letter-spacing: normal;
+  }
 }
 
 body {
