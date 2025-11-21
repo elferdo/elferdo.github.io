@@ -1,5 +1,4 @@
 ---
-color: 2f5f2f
+color: 2f5f2f50
 ---
 About
-{: .main-section}

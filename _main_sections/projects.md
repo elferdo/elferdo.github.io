@@ -1,5 +1,4 @@
 ---
-color: 2f2f5f
+color: 2f2f5f50
 ---
 Projects
-{: .main-section}

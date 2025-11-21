@@ -1,5 +1,4 @@
 ---
-color: 5f2f2f
+color: 5f2f2f50
 ---
 Blog
-{: .main-section}
