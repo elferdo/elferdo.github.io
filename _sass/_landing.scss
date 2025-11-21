@@ -29,6 +29,9 @@ main#landing {
   align-items: center;
   justify-content: center;
 
+}
+
+.landing-section h1 {
   font-family: serif;
   font-size: clamp(24pt, 2vw, 50vw);
   text-color: white;
@@ -40,7 +43,5 @@ main#landing {
 
   @media (orientation: portrait) {
     font-size: clamp(24pt, 2vw, 50vw);
-  }
+ }
 }
-
-
