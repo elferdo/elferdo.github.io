@@ -65,3 +65,7 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+collections:
+  main_sections:
+    output: true
