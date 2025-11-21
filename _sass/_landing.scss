@@ -3,10 +3,11 @@
    ========================================================================== */
 
 body.landing {
-    padding: 0;
-    height: 100vh;
+  padding: 0;
+  height: 100vh;
   background-image: url("/images/cuatro_torres.png");
   background-size: cover;
+  background-position: 65%;
 }
 
 main#landing {
