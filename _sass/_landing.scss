@@ -23,15 +23,17 @@
 
 .main-section {
   font-family: serif;
-  font-size: 100pt;
+  font-size: clamp(24pt, 2vw, 50vw);
   text-align: center;
   text-color: white;
   color: white;
 
-  @media only screen and (max-width: 600px) {
+/*
+  @media (orientation: landscape) {
     font-size: 85pt;
     letter-spacing: normal;
   }
+  */
 }
 
 body {
