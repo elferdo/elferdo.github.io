@@ -28,8 +28,6 @@ main#landing {
   height: 100%;
   align-items: center;
   justify-content: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .landing-section h1 {
@@ -38,6 +36,8 @@ main#landing {
   text-color: white;
   color: white;
   text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
 
   @media (orientation: landscape) {
     font-size: clamp(24pt, 10vw, 50vw);
