@@ -36,6 +36,7 @@ main#landing {
   font-size: clamp(24pt, 2vw, 50vw);
   text-color: white;
   color: white;
+  text-align: center;
 
   @media (orientation: landscape) {
     font-size: clamp(24pt, 10vw, 50vw);

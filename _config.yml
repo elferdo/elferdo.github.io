@@ -70,7 +70,7 @@ collections:
   main_sections:
     output: true
     order:
-      - about.md
-      - projects.md
-      - blog.md
-      - contact.md
+      - technology.md
+      - human_leadership.md
+      - continuous_improvement.md
+      - results.md
