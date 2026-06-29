@@ -12,7 +12,7 @@ lang: en-US
 title: "Fernando Herrero Carrón"
 
 # A description of your site for meta tag, search engine results.
-description: "Coming soon!"
+description: "A personal blog about software engineering, psychology and photography"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
