@@ -27,7 +27,7 @@ layout: default
       <a target="_blank"
         href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}&amp;t={{ page.title | uri_escape }}" rel="noopener">Facebook</a>
       <a target="_blank"
-        href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&amp;title={{ page.title | uri_escape }}&amp;summary={% if content contains '<!--more-->' %}{{ content | split:'<!--more-->' | first }}{% endif %}&amp;source={{ site.url }}"  rel="noopener noreferrer">LinkedIn</a>
+        href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&amp;title={{ page.title | uri_escape }}&amp;summary={{ page.summary | escape }}&amp;source={{ site.url }}" rel="noopener noreferrer">LinkedIn</a>
     </div><!-- .share-post -->
     <div class="author-box">
       {% if site.data.author.image and site.data.author.image != "" %}

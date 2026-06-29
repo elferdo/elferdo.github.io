@@ -22,8 +22,8 @@ layout: default
       {% endif %}
     </header><!-- .post-header -->
     <div class="post-content">
-      {% if post.content contains '<!--more-->' %}
-      {{ post.content | split:'<!--more-->' | first }}
+      {% if post.summary and post.summary != "" %}
+      {{ post.summary }}
       <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" class="read-more-link">Continue reading &rarr;</a>
       </p>
       {% else %}

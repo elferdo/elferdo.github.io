@@ -4,12 +4,9 @@ title: "First post"
 description: "First post to test the Scriptor theme"
 date: 2025-11-19
 feature_image: images/camino_otoño.jpg
+summary: First post to test the Scriptor theme for my new Jekyll site.
 tags: [english]
 ---
-
-First post to test the Scriptor theme for my new Jekyll site.
-
-<!--more-->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus vitae
 augue fermentum aliquet. Curabitur euismod, arcu at finibus dignissim, ligula
