@@ -66,11 +66,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
-collections:
-  main_sections:
-    output: true
-    order:
-      - technology.md
-      - human_leadership.md
-      - continuous_improvement.md
-      - results.md
+# collections:
+#   main_sections:
+#     output: true
+#     order:
+#       - technology.md
+#       - human_leadership.md
+#       - continuous_improvement.md
+#       - results.md
