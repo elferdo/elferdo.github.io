@@ -1,5 +1,5 @@
 ---
 layout: tags
-title: Tags
+title: Etiquetas
 description: A tags page for Scriptor Jekyll theme
 ---

@@ -28,22 +28,26 @@ favicon: images/favicon.png
 
 # Site navigation - each item must have a title and a url.
 navigation:
-  - text: Home
+  - text: Inicio
     url: /
-  - text: About
-    url: /about
-  - text: Tags
-    url: /tags
+  - text: Acerca de
+    url: /acercade
+  - text: Etiquetas
+    url: /etiquetas
 
 # The shortname for your Disqus site to enable comments.
 # disqus: elferdo
+
+# Localization
+date_locale: es
+locales_path: _locales
 
 # Colors
 accent_color: '#2d72d9'
 
 # Site footer
 footer:
-  content: "&copy; Fernando Herrero Carrón all rights reserved. Theme derived from Scriptor by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "&copy; 2025-2026 Fernando Herrero Carrón todos los derechos reservados. Tema derivado de Scriptor por [JustGoodThemes](https://www.justgoodthemes.com)."
   has_social: true
 
 # Plugins
