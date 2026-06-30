@@ -60,7 +60,8 @@ paginate_path: '/page:num/'
 
 
 # Permalinks
-permalink: /:title
+permalink: /:year/:month/:day/:title:output_ext
+
 
 # Conversion
 markdown: kramdown
