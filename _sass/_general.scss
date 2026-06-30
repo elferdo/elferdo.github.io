@@ -277,7 +277,10 @@ video {
 
 .inner:before,
 .inner:after,
-.post-content:before,
+.post-content {
+  font-size: 1.1rem;
+}
+.post-content:before 
 .post-content:after {
   content: "";
   display: table;
